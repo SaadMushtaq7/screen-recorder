@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+
+
+.recorder-container {
+    margin-top: 20px;
+}
+
+.loader{
+    margin-left: 50%;
+}
+
+.recorder-container .main-btns {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Neucha', cursive;
+}
+
+.recorder-container .recorder {
+    width: 100vw;
+}
+
+.recorder-container .recorder .only-screen{
+    width: 100%;
+    margin-left: 32%;
+}
+
+.recorder-container .recorder .only-screen .live-feed{
+    width: fit-content;
+    border-radius: 5px;
+}
+
+/*-----Home page--*/
+.homepage-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.homepage-container .image-container .img,
+.image-container .img{
+    height: 500px;
+    margin: auto;
+    width: 50%;
+    margin-top: 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.homepage-container .dropdown-container {
+    margin: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.homepage-container .dropdown-video{
+    margin-right: 50px;
+    margin-top: 10px;
+    width: 250px;
+    background-color: #F5F5F5;
+    
+}
+
+.homepage-container .dropdown-audio {
+    margin-left: 220px;
+    margin-top: 10px;
+    width: 250px;
+    background-color: #F5F5F5;
+}
+
+.homepage-container .btn-container {
+    margin: auto;
+    width: 12%;
+    margin-top: 30px;
+}
+
+.homepage-container .btn-container a{
+    text-decoration: none;
+}
+
+
+/*------preview Page------*/
+.previewpage-container .slack-btn{
+    height: 40px;
+    color: white;
+    background-color: #007FB1;
+    width: 40px;
+    border-radius: 25px;
+    padding: 5px;
+    margin-left: 5px;   
+}
